@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 
 class AppThemes {
   static final lightTheme = ThemeData(
-    primarySwatch: Colors.amber,
+    primarySwatch: Colors.red,
     brightness: Brightness.light,
   );
 
   static final darkTheme = ThemeData(
-    primarySwatch: Colors.amber,
+    primarySwatch: Colors.red,
     brightness: Brightness.dark,
   );
 }
