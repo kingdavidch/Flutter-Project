@@ -2,8 +2,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart'; // Add this to use GetMaterialApp
-import 'package:joshuas_shop/models/product.dart';
-import 'package:joshuas_shop/themes/theme.dart';
+import 'package:flutter-project/models/product.dart';
+import 'package:flutter-project/themes/theme.dart';
 // ignore: unnecessary_import
 import 'package:flutter/animation.dart'; // Required for AnimatedSlide
 
@@ -54,7 +54,7 @@ class CatalogPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'Joshuas Shop',
+          'Flutter Project',
           style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
         ),
         actions: [
